@@ -11,66 +11,66 @@
         <table >
             <tr>
                 <td>
-                    Naam:
+                    <Label for="Naam">Naam:</Label>
                 </td>
                 <td>
-                    <input type="text" name="Naam" required >
+                    <input type="text" name="Naam" id="Naam" required >
                 </td>
                 <td>
-                    Voornaam:
+                    <label for="Voornaam">Voornaam:</label>
                 </td>
                 <td>
-                    <input type="text" name="Voornaam">
+                    <input type="text" name="Voornaam" id="Voornaam" required>
                 </td>
             </tr>
             <tr>
                 <td>
-                    Adres:
+                    <label for="Adres">Adres:</label>
                 </td>
                 <td colspan="3">
-                    <textarea name="Adres" cols="50"></textarea>
+                    <textarea name="Adres" id="Adres" cols="50"></textarea>
                 </td>
             </tr>
             <tr>
                 <td>    
-                    Postcode:
+                    <label for="postcode">Postcode:</label>
                 </td>
                 <td>
-                    <input type="text" name="postcode" size="4" maxlength="4">
+                    <input type="text" name="postcode" id="postcode" size="4" maxlength="4">
                 </td>
                 <td>
-                    Gemeente:
+                    <label for="Gemeente">Gemeente:</label>
                 </td>
                 <td>
-                   <input type="text" name="Gemeente" ></p>
+                   <input type="text" id="Gemeente" ></p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    Email adres:
+                    <label for="Email">Email adres:</label>
                 </td>
-                <td colspan="3"><input type="text" name="Email" value="@student.ucll.be" size="50"></td>
+                <td colspan="3"><input type="text" id="Email" value="@student.ucll.be" size="50"></td>
             </tr>
             <tr>
                 <td>
-                    Website:
+                    <Label for="Website">Website:</Label>
                 </td>
                 <td colspan="3">
-                    <input type="text" name="Website" placeholder="Website van je bedrijf" size="50">
+                    <input type="text" id="Website" placeholder="Website van je bedrijf" size="50">
                 </td>
             </tr>
             <tr>
                 <td>
-                    Geboortedatum:
+                    <label for="Geboortedatum">Geboortedatum:</label>
                 </td>
                 <td>
-                    <input type="date" name="Geboortedatum">
+                    <input type="date" id="Geboortedatum">
                 </td>
                 <td>
-                    Aantal kinderen:
+                    <label for="Aantal kinderen">Aantal kinderen:</label>
                 </td>
                 <td>
-                    <input type="text" name="Aantal kinderen" >
+                    <input type="text" id="Aantal kinderen" >
                 </td>
             </tr>
             <tr>
@@ -78,15 +78,15 @@
                     Geslacht:
                 </td>
                 <td colspan="3">
-                    <input type="radio" name="Geslacht" > Man <input type="radio" name="Geslacht"> Vrouw
+                    <input type="radio" id="GeslachtM" name="rdb"> <Label for="GeslachtM">Man</Label> <input type="radio" id="GeslachtV" name="rdb"> <Label for="GeslachtVs">Vrouw</Label>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="checkbox" checked> Wij mogen u per e-mail contacteren
+                    <input type="checkbox" id="chemail" checked> <Label for="chemail">Wij mogen u per e-mail contacteren</Label>
                 </td>
                 <td colspan="2">
-                    <input type="checkbox" checked> Wij mogen u per post contacteren
+                    <input type="checkbox" checked id="chontact"> <label for="chontact">Wij mogen u per post contacteren</label>
 
                 </td>
             </tr>
@@ -97,16 +97,16 @@
         <table>
             <tr>
                 <td>
-                    Uploaden:
+                    <label for="fileupload">Uploaden:</label>
                 </td>
                 <td>
-                    <input type="file">
+                    <input type="file" id="fileupload">
                 </td>
                 <td>
-                    Passwoord:
+                    <label for="Passwoord">Passwoord:</label>
                 </td>
                 <td>
-                    <input type="text">
+                    <input type="text" id="Passwoord">
                 </td>
             </tr>
             <tr>
@@ -131,24 +131,24 @@
             </tr>
             <tr>
                 <td>
-                    Zoeken:
+                    <Label for="zoeken">Zoeken</Label>
                 </td>
                 <td colspan="3">
-                    <input type="search" name="zoeken">
+                    <input type="search" name="zoeken" id="zoeken">
                 </td>
             </tr>
             <tr>
                 <td>
-                    Achtergrondkleur:
+                    <label for="kleur">Achtergrondkleur:</label>
                 </td>
                 <td>
-                    <input type="color" name="kleur">
+                    <input type="color" name="kleur" id="kleur" >
                 </td>
                 <td>
-                    Afwijking:
+                    <label for="afw">Afijking:</label>
                 </td>
                 <td>
-                    <input type="range" name="afwijking" min="0" max="255" step="1" value="122">
+                    <input type="range" name="afwijking" id="afw" min="0" max="255" step="1" value="122">
                 </td>
             </tr>
         </table>
