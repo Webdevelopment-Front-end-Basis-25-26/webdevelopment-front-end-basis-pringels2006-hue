@@ -1,0 +1,36 @@
+h1 {
+        text-align: center;
+        font-family: "trebuchet ms", geneva, sans-serif;
+        font-size: 36pt;
+        color: #3598db;
+      }
+
+      p#paragraaf1 {
+        text-align: left;
+        text-decoration: underline;
+        font-family: tahoma, arial, helvetica, sans-serif;
+        font-size: 14pt;
+        color: #000000;
+        text-decoration: underline;
+      }
+
+      li{
+        text-align: left;
+        font-family: georgia, palatino, serif;
+        font-size: 14pt;
+        color: #000000;
+        
+      }
+      li .mark {
+        background-color: #f1c40f
+      }
+
+      p#paragraaf2 {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #add8e6;
+        border-color: blue;
+        border-style: solid;
+        font-size: 14pt;
+        font-family: "book antiqua", palatino, serif;
+      }
