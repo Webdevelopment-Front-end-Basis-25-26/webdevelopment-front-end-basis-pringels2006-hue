@@ -1,0 +1,47 @@
+body {
+  background-image: url(backdrop.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20% 5000%;
+  background-color: #c2c9cc;
+  
+}
+p {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  color: lavender;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  font-size: 200%;
+  text-shadow: lavender 4px 4px 5px;
+  background-color: Black;
+}
+h4 {
+  color: rgb(0, 0, 0);
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+}
+ul{
+  list-style-image: url(sqpurple.gif);
+  list-style-type: square;
+  list-style-position: inside;
+}
+div{
+  font-style: italic;
+}
+p.inspringen{
+  text-indent: 20px;
+}
+
+p.besluit{
+  font-family: "Serif", garamond, serif;
+  font-weight: bold;
+}
