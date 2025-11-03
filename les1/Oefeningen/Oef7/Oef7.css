@@ -1,0 +1,95 @@
+body {
+  background-color: #ddddff;
+}
+body > p {
+  text-transform: uppercase;
+  font-size: 1em;    
+}
+
+body h2 + p:first-line{
+  font-style: italic;
+  text-indent: 30px;
+}
+body > p:first-letter {
+  font-size: 1.75em;
+  color: Black;
+  font-weight: bold;
+}
+
+body div > p{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+body div > p:first-letter {
+    font-size: 1.75em;
+    color: Black;
+}
+body div h2 + p:first-line {
+  font-style: italic;
+  
+}
+h2 + p{
+  text-indent: 1.5em;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+header h2 {
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: black !important;
+  font-size: 1.75em;
+}
+header nav a {
+  font-size: 1em;
+  color: white !important;
+  background-image: url(images/link.png);
+  background-repeat: no-repeat;
+  padding-left: 1.1em;
+  background-color: #444488;
+}
+header nav a:hover {
+  background-color: #4444ff;
+}
+header nav a:active {
+  color: #ffbbbb;
+}
+header nav a:first-child {
+  font-weight: bold;
+}
+
+header nav a + a {
+  font-style: italic;
+}
+
+header h2 {
+  font-size: 1.25em;
+}
+
+a {
+  color: Black;
+}
+
+a:visited {
+  color: blue;
+}
+
+ul li{
+  list-style-image: url(images/clipboard.png);
+}
+ul li:first-child {
+  color: green;
+}
+ul li:last-child {
+  color: red;
+}
+
+ul li ul li{
+  list-style-image: url();
+  color: blue !important;
+}
+
