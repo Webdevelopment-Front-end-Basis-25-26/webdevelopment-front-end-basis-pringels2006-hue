@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ 
+ 
+body {
+    font-family: Montserrat, Tahoma, Verdana, sans-serif;
+    background-color: hsl(0, 0%, 85%);
+}
+ 
+ 
+.container {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+ 
+ 
+.content {
+    padding: 10px;
+}
+
+.content h2 {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(151, 151, 141);
+    padding: 5px;
+    border: 5px solid rgb(91, 90, 77);
+    border-top-right-radius: 20px;
+}
+
+.content h2:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.content h2:not(:hover){
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+table {
+    margin: 20px 0px;
+    border: 5px ridge rgb(91, 90, 77);
+    border-collapse: collapse;
+}
+ 
+th,
+td {
+    border: 1px solid rgb(91, 90, 77);
+    padding: 5px;
+}
+
+tr:hover {
+    background-color:  rgb(151, 151, 141);
+    transition: color 0.3s, background-color 0.3s;
+}
+
+tr:not(:hover) {
+    background-color: white;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+header {
+    height: 100px;
+    padding: 20px;
+    background-image: url(images/header.gif);
+    color: white;
+    font-size: 25px;
+}
+
+header:hover h1{
+    transform: translate(450px, 0px);
+    transition: transform 2s;
+}
+.image-hover-over {
+    position:relative;
+    top: -70px;
+    left: 20px;
+    opacity: 0;
+    width: 192px;
+    height: 73px;
+}
+header:hover .image-hover-over {
+    opacity: 1;
+    transition: opacity 2s;
+}
+.image-hover-over div {
+    position: absolute;
+    background-color: #002757;
+    color: white;
+    padding: 10px 20px;
+    opacity: 0;
+    top: 30px;
+
+}
+
+.image-hover-over img:hover .image-hover-over div{
+    opacity: 1; 
+    transition: opacity 0.8s;
+}
+
+p{
+    background-color: #0066DD;
+    color: #DD6600;
+    padding: 10px;
+    height: 40px;
+    overflow: hidden; /* Prevents text overflow caused by span */
+    position: sticky;
+}
+
+nav {
+    margin: 10px;
+}
+ 
+nav a {
+    background-color: #002757;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    transform: rotate(10deg);
+    transition: transform 0.3s;
+}
+
+nav a:not(:hover) {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
